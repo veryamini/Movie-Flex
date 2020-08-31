@@ -13,14 +13,14 @@ import MovieDetails from "./components/Movies/MovieDetails";
 import Tv from "./components/TV/Tv";
 import Loading from "./components/Loader/Loading";
 import TvDetails from "./components/TV/TvDetails";
+
+
 class App extends Component {
   render() {
     return (
       <HashRouter basename="/Movie-Flex">
-   
-   
         <React.Fragment>
-]         <VerticalNav />
+          <VerticalNav />
           <Loading />
           <Switch>
             <Route exact path="/movies" component={Movies} />
